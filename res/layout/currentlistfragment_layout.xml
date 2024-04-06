@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/currentListLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.mobeta.android.dslv.DragSortListView 
+        android:id="@+id/currentListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        dslv:drop_animation_duration="100" />
+    
+	<TextView 
+		android:id="@android:id/empty"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:textSize="17sp"
+		android:padding="14dp"
+		android:text="@string/empty_list" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a really hacky way of showing a line at the top of the view.
+	It basically draws a 3dp rectangle around the whole view, and uses 
+	layer-list to set the boundry of the drawable to 3dp bigger than the view
+	on all sides except the top.
+	The alternative would've been to add an additional view to my layout,
+	but that had the potential to mess up my layout. -->
+	
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:top="0dp"
+        android:left="-4dp"
+        android:right="-4dp"
+        android:bottom="-4dp"
+        >
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/transparent"  />
+            <stroke 
+                android:width="3dp" 
+                android:color="@color/drag_row_indicator" />
+        </shape>
+    </item>
+</layer-list>

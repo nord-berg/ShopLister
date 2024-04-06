@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_drag_handle_side_entries">
+        <item>@string/pref_drag_handle_side_left</item>
+        <item>@string/pref_drag_handle_side_right</item>
+    </string-array>
+    <string-array name="pref_drag_handle_side_values">
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+</resources>

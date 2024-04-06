@@ -1,0 +1,27 @@
+# view res/layout/activity_main.xml #generated:12
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/currentlistfragment_layout.xml #generated:10
+-keep class com.mobeta.android.dslv.DragSortListView { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:7
+-keep class com.viewpagerindicator.TabPageIndicator { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class org.noip.nordberg.shoplister.activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class org.noip.nordberg.shoplister.activities.SettingsActivity { <init>(...); }
+
+# view res/layout/list_row_currentlist.xml #generated:83
+-keep class org.noip.nordberg.shoplister.customviews.EditTextMultiLine { <init>(...); }
+
+# view res/layout/list_row_currentlist.xml #generated:2
+-keep class org.noip.nordberg.shoplister.customviews.ListRowView { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class org.noip.nordberg.shoplister.database.ContProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class org.noip.nordberg.shoplister.utilities.AppRef { <init>(...); }
+

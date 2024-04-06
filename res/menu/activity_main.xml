@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+    <item android:id="@+id/share"
+        android:showAsAction="never"
+        android:title="@string/menu_share"/>  
+          
+	<item android:id="@+id/rename_list"
+        android:showAsAction="never"
+        android:title="@string/menu_rename_list"/>
+    
+    <item android:id="@+id/delete_list"
+        android:showAsAction="never"
+        android:title="@string/menu_delete_list"/>
+    
+    <item android:id="@+id/clean_list_button"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_cleanup"
+        android:title="@string/menu_clean_list"/>
+
+</menu>

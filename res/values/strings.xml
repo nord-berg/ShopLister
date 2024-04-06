@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shoplister</string>
+    <string name="menu_settings">Settings</string>
+    <string name="empty_list">No items yet</string>
+    <string name="add_new_item_hint"><i>Add new item</i></string>
+	<string name="spinner_footer">Add new list</string>
+	<string name="delete_confirmation">"Are you sure you want to delete the list?"</string>
+	<string name="delete_confirmation_header">"Confirm delete"</string>
+	<string name="positive_button">"OK"</string>
+	<string name="negative_button">"Cancel"</string>
+	<string name="fragment_title_favourites">"Favourites"</string>
+	<string name="fragment_title_currentlist">"List"</string>
+	<string name="pref_show_quantity_title">"Quantity button"</string>
+	<string name="pref_show_quantity_summary">"Show quantity button"</string>
+	<string name="pref_sort_by_total_title">"Sort favourites by popularity"</string>
+	<string name="settings_title">"Settings"</string>
+	<string name="pref_drag_handle_side_title">"Drag handle side"</string>
+	<string name="pref_drag_handle_side_left">"Left"</string>
+	<string name="pref_drag_handle_side_right">"Right"</string>
+	<string name="pref_send_feedback_title">"Send feedback"</string>
+	<string name="pref_send_feedback_uri">"mailto:areyoukenapps@gmail.com"</string>
+	<string name="create_new_list_prompt_title">"Create a new list"</string>
+	<string name="create_new_list_prompt_message">"Enter list name"</string>
+	<string name="rename_list_prompt_title">"Rename List: "</string>
+	<string name="rename_list_prompt_message">"Enter new list name:"</string>
+	<string name="button_ok">"OK"</string>
+	<string name="button_cancel">"Cancel"</string>
+	<string name="menu_share">"Share"</string>
+	<string name="menu_rename_list">"Rename list"</string>
+	<string name="menu_delete_list">"Delete list"</string>
+	<string name="menu_clean_list">"Clean list"</string>
+	
+</resources>

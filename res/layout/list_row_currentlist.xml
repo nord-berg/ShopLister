@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.noip.nordberg.shoplister.customviews.ListRowView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/rightLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/extrasText"
+                style="@style/shoplisterExtrasText"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textNoSuggestions" />
+
+            <Button
+                android:id="@+id/incQuantityButton"
+                style="@style/shoplisterIncQuantityText"
+                android:layout_gravity="center_vertical"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <ToggleButton
+                android:id="@+id/favCheckBox"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/btn_star_holo_light"
+                android:gravity="center"
+                android:textOff=""
+                android:textOn="" />
+
+            <ImageView
+                android:id="@+id/drag_handle_right"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/drag_handle_button"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/leftLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/rightLL"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/leftMarginFiller"
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/drag_handle_left"
+                android:layout_width="34dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/drag_handle_button"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                style="@style/shoplisterStandardCheckBox"
+                android:layout_gravity="center_vertical" />
+
+            <org.noip.nordberg.shoplister.customviews.EditTextMultiLine
+                android:id="@+id/currentRowItemEditText"
+                style="@style/shoplisterItemText"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textNoSuggestions|textMultiLine" />
+
+            <Button
+                android:id="@+id/extrasFiller"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground" />
+        </LinearLayout>
+
+</org.noip.nordberg.shoplister.customviews.ListRowView>

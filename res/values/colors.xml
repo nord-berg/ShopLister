@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fav_row_background_selected">#FFebebeb</color>
+    <color name="extras_background">#FFebebeb</color>
+    <color name="drag_row_indicator">#FF33b5e5</color>
+    <color name="drag_shadow">#FFeaeaea</color>
+    <color name="main_background">#FFa1a1a1</color>
+</resources>

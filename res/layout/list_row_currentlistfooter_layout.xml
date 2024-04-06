@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="12dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/footerFiller"
+        android:layout_width="22dp"
+        android:layout_height="match_parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFooter"
+        style="@style/shoplisterStandardCheckBox" />
+
+    <EditText
+        android:id="@+id/addItemEditTextFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_new_item_hint"
+        android:inputType="textCapSentences"
+        android:paddingBottom="14dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="14dp"
+        android:paddingTop="14dp"
+        android:singleLine="true"
+        android:textSize="16sp" 
+        android:background="@null" />
+
+</LinearLayout>
